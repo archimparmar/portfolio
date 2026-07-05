@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr, Field, ConfigDict
 from typing import List, Optional
-import datetime
+from datetime import datetime
 
 # --- General ---
 class Token(BaseModel):
@@ -21,7 +21,8 @@ class UserCreate(UserBase):
 class UserOut(UserBase):
     id: int
     is_active: bool
-    created_at: datetime.datetime
+
+    created_at: Optional[datetime] = None
     
     model_config = ConfigDict(from_attributes=True)
 
