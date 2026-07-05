@@ -3,6 +3,7 @@ import { Outfit, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
 import CustomCursor from "@/components/CustomCursor";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -68,6 +69,7 @@ export default function RootLayout({
           {children}
           <CustomCursor />
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   );
