@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     
     # JWT Auth Configuration
-    SECRET_KEY: str = os.getenv("SECRET_KEY", "super_secret_key_change_me_in_production_1234567890!")
+    SECRET_KEY: str = os.getenv("SECRET_KEY", "3h9!Jm2u3jnfberhjbehfebhmatb1234567890")
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7  # 7 Days
 
