@@ -1,0 +1,359 @@
+{
+  "skills": [
+    {
+      "name": "Python",
+      "level": 90,
+      "category": "Programming"
+    },
+    {
+      "name": "Django",
+      "level": 85,
+      "category": "Backend"
+    },
+    {
+      "name": "FastAPI",
+      "level": 75,
+      "category": "Backend"
+    },
+    {
+      "name": "Flask",
+      "level": 70,
+      "category": "Backend"
+    },
+    {
+      "name": "REST API Development",
+      "level": 80,
+      "category": "Backend"
+    },
+    {
+      "name": "API Integration",
+      "level": 75,
+      "category": "Backend"
+    },
+    {
+      "name": "MERN Stack Fundamentals",
+      "level": 60,
+      "category": "Backend"
+    },
+    {
+      "name": "JavaScript",
+      "level": 70,
+      "category": "Programming"
+    },
+    {
+      "name": "HTML",
+      "level": 80,
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS",
+      "level": 75,
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "level": 75,
+      "category": "Frontend"
+    },
+    {
+      "name": "jQuery",
+      "level": 60,
+      "category": "Frontend"
+    },
+    {
+      "name": "MySQL",
+      "level": 80,
+      "category": "Database"
+    },
+    {
+      "name": "MongoDB",
+      "level": 65,
+      "category": "Database"
+    },
+    {
+      "name": "SQLite",
+      "level": 60,
+      "category": "Database"
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "level": 75,
+      "category": "AI / ML"
+    },
+    {
+      "name": "Prompt Engineering",
+      "level": 70,
+      "category": "AI / ML"
+    },
+    {
+      "name": "LangChain Fundamentals",
+      "level": 70,
+      "category": "AI / ML"
+    },
+    {
+      "name": "LLM Applications (Gemini/OpenAI)",
+      "level": 75,
+      "category": "AI / ML"
+    },
+    {
+      "name": "Data Preprocessing",
+      "level": 70,
+      "category": "AI / ML"
+    },
+    {
+      "name": "Pandas",
+      "level": 70,
+      "category": "AI / ML"
+    },
+    {
+      "name": "NumPy",
+      "level": 70,
+      "category": "AI / ML"
+    },
+    {
+      "name": "Scikit-Learn",
+      "level": 65,
+      "category": "AI / ML"
+    },
+    {
+      "name": "AI-Powered Document Processing",
+      "level": 70,
+      "category": "AI / ML"
+    },
+    {
+      "name": "NLP Fundamentals",
+      "level": 65,
+      "category": "AI / ML"
+    },
+    {
+      "name": "Git",
+      "level": 80,
+      "category": "Tools"
+    },
+    {
+      "name": "GitHub",
+      "level": 80,
+      "category": "Tools"
+    },
+    {
+      "name": "Unity 3D",
+      "level": 60,
+      "category": "Tools"
+    },
+    {
+      "name": "Virtual Reality Development",
+      "level": 60,
+      "category": "Tools"
+    },
+    {
+      "name": "Power BI",
+      "level": 55,
+      "category": "Tools"
+    },
+    {
+      "name": "Java",
+      "level": 50,
+      "category": "Programming"
+    },
+    {
+      "name": "C",
+      "level": 55,
+      "category": "Programming"
+    },
+    {
+      "name": "C++",
+      "level": 50,
+      "category": "Programming"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Apex Software House, Bhavnagar",
+      "role": "Frontend Developer & Office Management Intern",
+      "duration": "Apr 2024- Aug 2025",
+      "description": "Worked on website development and organizational activities. Developed frontend interfaces for web applications. Improved website responsiveness and user experience. Assisted in office documentation and project coordination activities.",
+      "display_order": 1
+    },
+    {
+      "company": "DreamDrift Designs Pvt. Ltd., Bhavnagar",
+      "role": "Python Django Developer Intern",
+      "duration": "Jun 2025- July 2025",
+      "description": "Worked on the development of BhojanVilla, a restaurant and resort management platform. Developed web application modules using Python and Django. Worked on frontend and backend integration. Implemented user authentication and booking functionalities. Assisted in database integration and system testing.",
+      "display_order": 2
+    }
+  ],
+  "projects": [
+    {
+      "title": "DocMind AI – Intelligent Document Assistant (Ongoing)",
+      "description": "Developing an AI-powered document assistant capable of extracting information from PDF documents and answering user queries using Retrieval-Augmented Generation (RAG) techniques. Utilizes semantic search and vector-based retrieval to provide context-aware responses from uploaded documents. Key Features: PDF Upload & Processing, Semantic Search, Context-Aware Question Answering, Document Knowledge Retrieval, AI-Powered Responses",
+      "technologies": "Python, FastAPI, LangChain, Gemini API, FAISS",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 1
+    },
+    {
+      "title": "NexNote",
+      "description": "A collaborative productivity and note-management platform designed to improve organization and teamwork. Presented during CorpConnect.",
+      "technologies": "MERN Stack, Antigravity Framework",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 2
+    },
+    {
+      "title": "Crime Vision",
+      "description": "A research-oriented platform developed for crime analysis and monitoring. Presented during TechManjari 2026 as part of a technical project showcase.",
+      "technologies": "MERN Stack, Antigravity Framework",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 3
+    },
+    {
+      "title": "StellarSence VR – Virtual Reality Space Education Platform",
+      "description": "An immersive virtual reality platform designed to make space learning interactive and engaging through realistic experiences. Features: Solar System Exploration, Moon Roller Coaster Experience, Interactive Educational Environment",
+      "technologies": "Unity 3D, Virtual Reality",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 4
+    },
+    {
+      "title": "BhojanVilla – Restaurant & Resort Management System",
+      "description": "A full-stack web application developed for managing restaurant and resort operations, including bookings, customer management, and administrative activities.",
+      "technologies": "Python, Django, MySQL, HTML, CSS, Bootstrap, JavaScript",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 5
+    },
+    {
+      "title": "PDF Summarizer",
+      "description": "Built an application that extracts content from PDF documents and generates concise summaries, helping users quickly understand lengthy documents.",
+      "technologies": "Python, AI/NLP Tools",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 6
+    },
+    {
+      "title": "Real-Time Speech-to-Text System",
+      "description": "Developed a speech recognition application capable of converting spoken language into text in real time, focusing on transcription accuracy and usability.",
+      "technologies": "Python, Flask, Vosk",
+      "github_url": null,
+      "live_url": null,
+      "image_url": null,
+      "display_order": 7
+    }
+  ],
+  "education": [
+    {
+      "institution": "Gyanmanjari Innovative University, Bhavnagar",
+      "degree": "Bachelor of Computer Engineering",
+      "duration": "2023-2027",
+      "description": "7.3 / 10 CGPA (Till 5 Sem )",
+      "display_order": 1
+    },
+    {
+      "institution": "Gyanmanjari Higher Secondary School, Bhavnagar",
+      "degree": "Higher Secondary School",
+      "duration": "2023",
+      "description": "51.70 %",
+      "display_order": 2
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AI-Powered SEO Masterclass Completion",
+      "description": "Learned search engine optimization fundamentals, keyword research techniques, content optimization strategies, and AI-assisted digital marketing practices.",
+      "icon_name": "zap",
+      "date": "February 2026",
+      "display_order": 1
+    },
+    {
+      "title": "Presented NexNote at CorpConnect 1.0",
+      "description": "Presented the NexNote project during industry interaction and project presentation activities at CorpConnect 1.0.",
+      "icon_name": "zap",
+      "date": "March 2026",
+      "display_order": 2
+    },
+    {
+      "title": "Runner-Up at TechManjari 2026",
+      "description": "Awarded Runner-Up position for the StellarSence VR startup project among competing student innovations at TechManjari 2026.",
+      "icon_name": "trophy",
+      "date": "January 2026",
+      "display_order": 3
+    },
+    {
+      "title": "Research Paper Committee Member (GIMCA 2026)",
+      "description": "Served as a member of the Research Paper Committee for the GIMCA 2026 International Conference, assisting in managing research paper activities, coordinating conference proceedings, and collaborating with faculty and researchers.",
+      "icon_name": "award",
+      "date": "2026",
+      "display_order": 4
+    },
+    {
+      "title": "Presented StellarSence VR at UdhyamSetu 1.0",
+      "description": "Represented StellarSence VR before investors and entrepreneurship professionals, participating in startup pitching and innovation activities.",
+      "icon_name": "award",
+      "date": "November 2025",
+      "display_order": 5
+    },
+    {
+      "title": "Presented StellarSence VR at Pahel 1.0",
+      "description": "Showcased StellarSence VR during innovation and entrepreneurship activities at Pahel 1.0.",
+      "icon_name": "zap",
+      "date": "September 2025",
+      "display_order": 6
+    },
+    {
+      "title": "Research Publication: Beyond Full Automation",
+      "description": "Published 'Beyond Full Automation: A Critical Survey of RPA and Human-in-the-Loop Hybrid Workflows' in International Research Journal of Modernization in Engineering Technology and Science (IRJMETS), Volume 7, Issue 7.",
+      "icon_name": "book-open",
+      "date": "July 2025",
+      "display_order": 7
+    },
+    {
+      "title": "Presented StellarSence VR at Code2Impact",
+      "description": "Presented StellarSence VR as an innovative startup solution and participated in idea validation and innovation-focused evaluation at Code2Impact.",
+      "icon_name": "zap",
+      "date": "July 2025",
+      "display_order": 8
+    },
+    {
+      "title": "Certified Lean Six Sigma AI Yellow Belt",
+      "description": "Gained knowledge of process improvement methodologies, quality management principles, and AI-assisted decision-making approaches.",
+      "icon_name": "award",
+      "date": "May 2024",
+      "display_order": 9
+    },
+    {
+      "title": "Claude AI Masterclass Completion",
+      "description": "Explored the capabilities of Claude AI and its applications in content creation, research, and professional productivity.",
+      "icon_name": "zap",
+      "date": "May 2024",
+      "display_order": 10
+    },
+    {
+      "title": "C Programming Course Completion",
+      "description": "Built a strong foundation in programming concepts, problem-solving techniques, control structures, functions, and data handling using C language.",
+      "icon_name": "book-open",
+      "date": "February–March 2024",
+      "display_order": 11
+    },
+    {
+      "title": "Freedom with AI Masterclass Completion",
+      "description": "Learned practical applications of artificial intelligence tools and explored how AI can enhance productivity and workflow efficiency.",
+      "icon_name": "zap",
+      "date": "January 2024",
+      "display_order": 12
+    },
+    {
+      "title": "GATE Qualified",
+      "description": "Successfully qualified the Graduate Aptitude Test in Engineering (GATE), demonstrating strong engineering fundamentals, analytical thinking, and problem-solving abilities.",
+      "icon_name": "award",
+      "date": null,
+      "display_order": 13
+    }
+  ]
+}

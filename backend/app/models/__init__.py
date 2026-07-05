@@ -1,0 +1,16 @@
+from app.models.models import (
+    User,
+    Project,
+    Skill,
+    Experience,
+    ResearchPaper,
+    Achievement,
+    ContactMessage,
+    BlogPost,
+    SocialLink,
+    SiteSetting,
+    Education,
+    Certification,
+    MediaAsset,
+    TechnicalEvent,
+)
