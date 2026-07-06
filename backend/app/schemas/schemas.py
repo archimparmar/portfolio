@@ -22,7 +22,7 @@ class UserOut(UserBase):
     id: int
     is_active: bool
 
-    created_at: Optional[datetime] = None
+    created_at: datetime
     
     model_config = ConfigDict(from_attributes=True)
 
@@ -168,7 +168,7 @@ class ContactMessageCreate(ContactMessageBase):
 
 class ContactMessageOut(ContactMessageBase):
     id: int
-    created_at: datetime.datetime
+    created_at: datetime
     is_read: bool
     
     model_config = ConfigDict(from_attributes=True)
@@ -197,7 +197,7 @@ class BlogPostUpdate(BaseModel):
 
 class BlogPostOut(BlogPostBase):
     id: int
-    published_at: datetime.datetime
+    published_at: datetime
     
     model_config = ConfigDict(from_attributes=True)
 
@@ -284,7 +284,7 @@ class MediaAssetOut(BaseModel):
     url: str
     size_bytes: int
     mime_type: str
-    uploaded_at: datetime.datetime
+    uploaded_at: datetime
     
     model_config = ConfigDict(from_attributes=True)
 
