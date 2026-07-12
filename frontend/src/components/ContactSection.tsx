@@ -212,6 +212,8 @@ export default function ContactSection() {
             </div>
           </motion.div>
 
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="archiparmar" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/archiparmar?trk=profile-badge">Archi Parmar</a></div>
+          
           {/* Right – glassmorphism form */}
           <motion.div
             ref={rightRef}
