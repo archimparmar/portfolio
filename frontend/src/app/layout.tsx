@@ -3,6 +3,8 @@ import { Outfit, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
 import CustomCursor from "@/components/CustomCursor";
+import Script from "next/script";
+
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -68,6 +70,11 @@ export default function RootLayout({
           {children}
           <CustomCursor />
         </Providers>
+
+        <Script
+          src="https://platform.linkedin.com/badges/js/profile.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
